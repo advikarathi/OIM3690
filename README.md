@@ -5,4 +5,4 @@ My name is Advika Rathi. I am excited to build my website.
 
 
 ## My Projects
-- [My Personal Website] (https://advikarathi.github.io/)
+- [My Personal Website] (https://github.com/advikarathi)
