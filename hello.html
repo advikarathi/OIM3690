@@ -6,40 +6,61 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#welcome">Home</a></li>
-            <li><a href="#interests">Interests</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-    </nav>
-
-    <section id="welcome">
-        <h1>Hello, my name is Advika</h1>
-        <p>This is my first hand-written HTML page.</p>
-    </section>
-
-    <section id="interests">
-        <h2>My Interests</h2>
-        <article>
-            <p>Here are a few things I enjoy working on:</p>
+    <header>
+        <nav>
             <ul>
-                <li>AI and creativity</li>
-                <li>Brand storytelling</li>
-                <li>Digital strategy</li>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
-        </article>
-    </section>
+        </nav>
+        <h1>Greetings, I’m Advika</h1>
+        <p><mark>Marketing student</mark> with a passion for AI and storytelling.</p>
+    </header>
 
-    <aside>
-        <p><strong>Fun fact:</strong> I made this page using only plain HTML.</p>
-    </aside>
+    <main>
+        <section id="welcome">
+            <h2>Welcome</h2>
+            <p>This is my first hand-written HTML page. I am learning how to structure content with <em>semantic</em> tags.</p>
+        </section>
 
-    <img src="images/photo.png" alt="Babson AI Luncheon" width="400">
+        <section id="interests">
+            <h2>My Interests</h2>
+            <article>
+                <p>Here are a few topics I love:</p>
+                <ul>
+                    <li>AI and creativity</li>
+                    <li>Brand storytelling</li>
+                    <li>Digital strategy</li>
+                    <li>Visual storytelling</li>
+                </ul>
+            </article>
+
+            <details>
+                <summary>Why these interests?</summary>
+                <p>I enjoy combining data with design to create memorable experiences.</p>
+            </details>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <article>
+                <p>Currently a senior at Babson College, class of <time datetime="2027">2027</time>.</p>
+                <figure>
+                    <img src="images/photo.png" alt="Babson AI Luncheon" width="400">
+                    <figcaption>At a Babson AI event.</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <aside>
+            <p><strong>Fun fact:</strong> This page uses mainstream HTML tags like <code>&lt;details&gt;</code> and <code>&lt;figure&gt;</code> without any CSS.</p>
+        </aside>
+    </main>
 
     <footer>
         <p>© 2026 Advika Rathi</p>
-        <p><small>Created with basic HTML tags and semantic structure.</small></p>
+        <address>Contact me at <a href="mailto:advika@example.com">advika@example.com</a></address>
     </footer>
 </body>
 
